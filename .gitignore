@@ -1,0 +1,12 @@
+.idea
+.vagrant
+.DS_Store
+servers/*
+!servers/magento2.local
+servers/magento2.local/*
+!servers/magento2.local/htdocs
+servers/magento2.local/htdocs/*
+!servers/magento2.local/htdocs/info.php
+shell/prj/*
+!shell/prj/magento2.local.sh
+!shell/prj/magento2-phpmyadmin.local.sh
